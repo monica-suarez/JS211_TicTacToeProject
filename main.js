@@ -67,8 +67,18 @@ const checkForWin = () => {
   if(horizontalWin() || verticalWin() || diagonalWin()) {
     return true;
   }
+  else{
+    changeMarker();
+  }
 }
-
+const changeMarker = () => {
+  if(playerTurn === "X"){
+    playerTurn = "O"    
+  } 
+  else {
+    playerTurn = "X"
+  }
+}
 const ticTacToe = (row, column) => {
   board[row][column] = playerTurn;
   checkForWin();
