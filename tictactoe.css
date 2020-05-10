@@ -5,3 +5,20 @@ td{
   border: 5px solid black;
   font-size: 100px;
 }
+.jumbotron {
+  text-align: center;
+  align-content: center;
+}
+td {
+  height:150px;
+  width:150px;
+  text-align: center;
+  border: 5px solid rgb(207, 206, 206);
+  font-size: 100px;
+  background-color: rgb(124, 174, 221);
+  color: ivory;
+}
+
+table {
+  margin: auto auto;
+}
